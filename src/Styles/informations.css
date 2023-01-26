@@ -1,0 +1,51 @@
+.informationScreen h1 {
+  font-size: 1.6rem;
+  padding: 5px 10px;
+  text-align: left;
+}
+.informationScreen h2 {
+  font-size: 1.2rem;
+  padding: 5px;
+  color: var(--primaryColor);
+  margin-bottom: -1rem;
+}
+.informationScreen hr {
+  color: var(--primaryColor);
+}
+.color-orange {
+  color: var(--primaryColor);
+}
+.color-blue {
+  color: blue;
+}
+.gras {
+  font-weight: bold;
+}
+.informationScreen p {
+  text-align: left !important;
+}
+.informationScreen h3 {
+  font-size: 1.2rem;
+}
+.informationScreen h3 ol li,
+.informationScreen h3 ul li {
+  list-style: var(--primaryColor);
+  line-height: 1.8rem;
+}
+.informationScreen ol li::marker,
+.informationScreen ul li::marker {
+  color: var(--primaryColor);
+  background-color: var(--primaryColor);
+}
+.informationScreen h4 {
+  font-size: 1rem;
+  color: gray;
+}
+.mini {
+  font-size: 0.8rem;
+}
+.inscription-btn {
+  background-color: var(--primaryColor);
+  color: white;
+  padding: 5px 10px;
+}
