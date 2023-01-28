@@ -3,6 +3,13 @@
 
 name: Build and deploy Node.js app to Azure Web App - suivi-these
 
+# This needs to be set here(not in azure server) since npm run build basically compiles the project.
+# Other servers like netlify probably support setting these vars in their portal, but not azure for reactjs
+env: 
+  CI: false
+  PRODUCTION: true
+  REACT_APP_API_BASE_URL: 'https://suivi-these-be.azurewebsites.net/api'
+
 on:
   push:
     branches:
